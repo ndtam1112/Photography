@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #eaeef1;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: -340px;
+    left: -276px;
+    width: 883px;
+    height: 883px;
+    border-radius: 50%;
+    background-color: #A8A9E9;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 951px;
+    width: 749px;
+    height: 749px;
+    border-radius: 50%;
+    background-color: #EAB8BB;
+}
+
+/* .st-main .circle {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.st-main .circle-1{
+    position: absolute;
+    top: -340px;
+    left: -276px;
+    width: 883px;
+    height: 883px;
+    border-radius: 50%;
+    background-color: #A8A9E9;
+
+}
+
+.st-main .circle-2{
+    position: absolute;
+    top: 56px;
+    left: 951px;
+    width: 749px;
+    height: 749px;
+    border-radius: 50%;
+    background-color: #EAB8BB;
+} */
+header {
+    position: relative;
+    width: 100%;
+    height: 136px;
+    padding: 80px 32px 56px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header h1 {
+    width: 194px;
+    height: 48px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+header .navigative {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .navigative ul {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navigative ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 32px;
+}
+
+header .navigative ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+header .navigative ul li .btn a {
+    width: 98px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 3px solid #111;
+    background-color: #fff;
+    color: #111;
+    border-radius: 6px;
+    position: relative;
+    text-decoration: none;
+}
+
+header .navigative ul li .btn {
+    position: relative;
+}
+header .navigative ul li .btn::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    width: 98px;
+    height: 40px;
+    background-color: #111;
+    border-radius: 6px;
+}
+
+.st-introduction {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    height: 560px;
+    padding: 56px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.st-introduction .text-intro {
+    width: 653px;
+}
+
+.st-introduction .text-intro h2 {
+    font-weight: 600;
+    font-size: 5em;
+    line-height: 1.1em;
+}
+
+.st-introduction .text-intro p {
+    width: 500px;
+    margin: 24px 0;
+}
+
+
+.st-introduction .text-intro .btn a {
+    width: 98px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 3px solid #111;
+    background-color: #fff;
+    color: #111;
+    border-radius: 6px;
+    position: relative;
+    text-decoration: none;
+}
+.st-introduction .text-intro .btn {
+    position: absolute;
+}
+
+.st-introduction .text-intro .btn::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    width: 104px;
+    height: 40px;
+    background-color: #111;
+    border-radius: 6px;
+}
